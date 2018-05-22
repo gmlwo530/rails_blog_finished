@@ -1,0 +1,72 @@
+<div class="container pt">
+	<div class="row mt">
+		<div class="col-lg-6 col-lg-offset-3 centered">
+			<h3>New Post</h3>
+			<hr>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+		</div>
+	</div>
+	<div class="row mt">	
+		<div class="col-lg-8 col-lg-offset-2">
+			<%#= form_for @post do |f| %>
+<!--				  <div class="form-group">-->
+		    <!--<input type="name" class="form-control" id="NameInputEmail1" placeholder="Your Name">-->
+		    <%#= f.text_field :title, class: "form-control", placeholder: "제목" %>
+<!--				    <br>-->
+<!--				  </div>-->
+		  <!--<textarea class="form-control" rows="6" placeholder="Enter your text here"></textarea>-->
+		  <%#= f.text_area :content, class: "form-control", placeholder: "내용" %>
+<!--				    <br>-->
+<!--				  <button type="submit" class="btn btn-success">SUBMIT</button>-->
+    <%# end %> 			
+		</div>
+	</div><!-- /row -->
+</div><!-- /container -->
+
+<div class="container pt">
+	<div class="row mt">
+		<div class="col-lg-6 col-lg-offset-3 centered">
+			<h3>New Post</h3>
+			<hr>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+		</div>
+	</div>
+	<div class="row mt">	
+		<div class="col-lg-8 col-lg-offset-2">
+			<%= form_tag '/posts', method: :post do  %>
+  				  <div class="form-group">
+  				    <!--<input type="name" class="form-control" id="NameInputEmail1" placeholder="Your Name">-->
+  				    <%= text_field_tag 'title', nil, class: "form-control", placeholder: "제목" %>
+  				    <br>
+  				  </div>
+  				  <!--<textarea class="form-control" rows="6" placeholder="Enter your text here"></textarea>-->
+  				  <%= text_area_tag 'content', nil, class: "form-control", placeholder: "내용" %>
+  				    <br>
+  				  <button type="submit" class="btn btn-success">SUBMIT</button>
+      <% end %>	
+		</div>
+	</div><!-- /row -->
+</div><!-- /container -->
+
+<div class="container pt">
+	<div class="row mt">
+		<div class="col-lg-6 col-lg-offset-3 centered">
+			<h3>New Post</h3>
+			<hr>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+		</div>
+	</div>
+	<div class="row mt">	
+		<div class="col-lg-8 col-lg-offset-2">
+			<form role="form">
+			  <div class="form-group">
+			    <input type="name" class="form-control" id="NameInputEmail1" placeholder="Your Name">
+			    <br>
+			  </div>
+			  <textarea class="form-control" rows="6" placeholder="Enter your text here"></textarea>
+			    <br>
+			  <button type="submit" class="btn btn-success">SUBMIT</button>
+			</form>    			
+		</div>
+	</div><!-- /row -->
+</div><!-- /container -->
