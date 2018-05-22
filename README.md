@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -24,6 +25,8 @@ The Cloud9 IDE team
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
 =======
+=======
+>>>>>>> parent of 69b1f55... first
 # UOS_LIKELION_RubyOnRails
 #LikeLion
 
@@ -55,4 +58,7 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 *4주차* (5월 30일) : 서비스의 기본 회원가입
 
 * Devise gem
+<<<<<<< HEAD
+>>>>>>> parent of 69b1f55... first
+=======
 >>>>>>> parent of 69b1f55... first
