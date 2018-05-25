@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://HOSTNAME/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-=======
-=======
->>>>>>> parent of 69b1f55... first
 # UOS_LIKELION_RubyOnRails
 #LikeLion
 
@@ -58,7 +29,3 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 *4주차* (5월 30일) : 서비스의 기본 회원가입
 
 * Devise gem
-<<<<<<< HEAD
->>>>>>> parent of 69b1f55... first
-=======
->>>>>>> parent of 69b1f55... first
