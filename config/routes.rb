@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root 'home#index'
-<<<<<<< HEAD
   
   get 'posts/index' => 'posts#index'
 
@@ -19,13 +18,7 @@ Rails.application.routes.draw do
   get '/delete' => 'posts#delete'
   
   get '/posts/delete/:id' => 'posts#delete'
-=======
-  get 'home/index'
-  get 'posts/index'
-  get 'posts/new'
-  post 'posts' => 'posts#create'
 
->>>>>>> 15400996a25a4f1b1ae3c553a31f62f78e4d1136
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
