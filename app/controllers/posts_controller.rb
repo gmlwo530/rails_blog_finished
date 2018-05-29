@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+<<<<<<< HEAD
   def index
     @posts = Post.all.order(created_at: :desc)
     # @posts = Post.order(created_at: :desc)
@@ -37,4 +38,22 @@ class PostsController < ApplicationController
     
     redirect_to "/posts/index"
   end
+=======
+    def index
+    end
+    
+    def new
+        @post = Post.new    
+    end
+    
+    def create
+        #form_tag
+        
+        post = Post.new(title: params[:title], content: params[:content])
+        post.save
+        
+        redirect_to posts_index_path
+        #form_for
+    end
+>>>>>>> 15400996a25a4f1b1ae3c553a31f62f78e4d1136
 end
